@@ -1451,5 +1451,40 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "🍯 Honey Theme Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Honey Gold",
+        "default": "#E8B923"
+      },
+      {
+        "type": "color",
+        "id": "color_secondary",
+        "label": "Warm Amber",
+        "default": "#C47A2E"
+      },
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Cream Background",
+        "default": "#FAF4E8"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Deep Beeswax Brown",
+        "default": "#2C2118"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "Leaf Green Accent",
+        "default": "#6B8E4E"
+      }
+    ]
   }
 ]
