@@ -1,3 +1,38 @@
+/* ====================== GOLDEN HIVE CUSTOM STYLES ====================== */
+:root {
+  --color-primary: #E8B923;
+  --color-secondary: #C47A2E;
+  --color-background: #FAF4E8;
+  --color-text: #2C2118;
+  --color-accent: #6B8E4E;
+  --color-highlight: #FFF8E1;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.button, .btn {
+  background-color: var(--color-primary);
+  color: #2C2118;
+}
+.button:hover, .btn:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Subtle honeycomb pattern */
+.mega-menu,
+.header__menu {
+  background-image: 
+    linear-gradient(45deg, rgba(232,185,35,0.08) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(232,185,35,0.08) 25%, transparent 25%);
+  background-size: 40px 40px;
+}
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
